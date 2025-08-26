@@ -1,0 +1,80 @@
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 20px;
+    }
+    form {
+      margin-bottom: 20px;
+      padding: 15px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      background-color: #f9f9f9;
+    }
+    form input {
+      margin: 5px;
+      padding: 8px;
+      font-size: 14px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    form button {
+      padding: 8px 15px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    form button:hover {
+      background-color: #0056b3;
+    }
+    .table-container {
+      overflow-x: auto; /* Enable horizontal scrolling */
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    table, th, td {
+      border: 1px solid #ccc;
+    }
+    th, td {
+      padding: 10px;
+      text-align: left;
+    }
+    th {
+      background-color: #f4f4f4;
+    }
+    .action-buttons {
+      display: flex;
+      gap: 10px; /* Gap between buttons */
+    }
+    .action-buttons button {
+      width: 70px; /* Consistent width for buttons */
+      background-color: #007bff;
+      color: white;
+      border: none;
+      padding: 5px 10px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .action-buttons button:hover {
+      background-color: #0056b3;
+    }
+    .delete-button {
+      background-color: #dc3545;
+    }
+    .delete-button:hover {
+      background-color: #c82333;
+    }
+    .no-tasks {
+      text-align: center;
+      font-size: 16px;
+      color: #888;
+      margin-top: 20px;
+    }
